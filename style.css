@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cold{
+    background-image:url("cold.jpg");
+}
+.hot{
+    background-image:url("hot.jpg");
+}
+.normal{
+    background-image:url("normal.jpg");
+}
+.card{
+    padding: 55px;
+    margin: 100px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.7);
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+button{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: none;
+    background: #2d3436;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#icon{
+    width:70px;
+    margin-top: 20px;
+}
